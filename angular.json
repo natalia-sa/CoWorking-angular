@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "coworking-frontend"
+    }
+  },
+  "defaultProject": "coworking-frontend",
+  "cli": {
+    "analytics": "f61c285e-d0d1-4835-9be7-b26a9a33891b"
+  }
 }
