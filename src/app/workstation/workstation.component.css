@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template-columns: 22% 22%;
+    grid-template-columns: 21% 21%;
     column-gap: 2%;
     row-gap: 2%;
     grid-auto-rows: min-content;
@@ -21,4 +21,19 @@
 }
 .workstation-container h3, p{
     margin-left: 10px;
+}
+.workstation-container button {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color:#DB5C50;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.workstation-container:hover button {
+    display: block;
 }

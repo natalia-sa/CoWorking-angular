@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WorkstationComponent } from './workstation/workstation.component';
+import { PageHeaderComponent } from './page-header/page-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WorkstationComponent
+    WorkstationComponent,
+    PageHeaderComponent
   ],
   imports: [
     BrowserModule,
