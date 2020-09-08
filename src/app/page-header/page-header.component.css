@@ -4,6 +4,12 @@ header {
     display: flex;
     align-items: center;
     font-size: 25px;
-    margin-left: 8%;
-    margin-bottom: 10%;
+    padding-left: 15%;
+    margin-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #26A18D;
+    box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.05);
+   
+    
 }
