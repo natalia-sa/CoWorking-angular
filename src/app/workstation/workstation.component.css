@@ -1,3 +1,11 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .grid {
     width: 100vw;
     height: 100vh;
@@ -15,6 +23,7 @@
     height: 100%;
     max-height: 350px;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .workstation-container img {
@@ -33,9 +42,10 @@
     height: 35px;
     border-radius: 50%;
     border: none;
-    background-color:#DB5C50;
+    background-color:#F4F4F4;
     cursor: pointer;
     display: none;
+    
     
 }
 .workstation-container button img {

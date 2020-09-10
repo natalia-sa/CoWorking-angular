@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WorkstationComponent } from './workstation/workstation.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WorkstationComponent,
-    PageHeaderComponent
+    PageHeaderComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
