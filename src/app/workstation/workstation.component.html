@@ -2,7 +2,11 @@
 
 
 <div class="main-container"  >
-    <app-form></app-form>
+    <form>
+        <input type="text" placeholder="nome" [(ngModel)]="workstation.name" name="name">
+        <input type="text" placeholder="descrição" [(ngModel)]="workstation.description" name="description">
+        <button type="button" (click)="cadastrar()">Cadastrar</button>
+    </form>
 
     <div class="grid">
         <div class="workstation-container" *ngFor="let workstation of workstations">
@@ -11,7 +15,6 @@
             <h3>{{workstation.name}}</h3>
             <p>{{workstation.description}}</p>
         </div>
-        
     </div>
 </div>
 

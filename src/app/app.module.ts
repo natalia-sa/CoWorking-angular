@@ -10,6 +10,7 @@ import { WorkstationComponent } from './workstation/workstation.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
 import { FormComponent } from './form/form.component';
 import {WorkstationsService} from './workstations.service'
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {WorkstationsService} from './workstations.service'
     BrowserModule,
     AppRoutingModule,
     RoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [WorkstationsService, HttpClientModule],
   bootstrap: [AppComponent]
