@@ -1,31 +1,17 @@
 <app-page-header></app-page-header>
 
 
-<div class="main-container">
+<div class="main-container"  >
     <app-form></app-form>
 
     <div class="grid">
-        <div class="workstation-container">
+        <div class="workstation-container" *ngFor="let workstation of workstations">
             <img src="https://noticiasdemogi.com.br/wp-content/uploads/2020/07/coworking-polo-digital.jpg" alt="escritorio"/>
             <button><img src="../../assets/trash-solid.svg"></button>
-            <h3>name</h3>
-            <p>descriptionaaaa</p>
+            <h3>{{workstation.name}}</h3>
+            <p>{{workstation.description}}</p>
         </div>
         
-        <div class="workstation-container">
-            <img src="https://noticiasdemogi.com.br/wp-content/uploads/2020/07/coworking-polo-digital.jpg" alt="escritorio"/>
-            <button><img src="../../assets/trash-solid.svg"></button>
-            <h3>name</h3>
-            <p>description</p>
-        </div>
-        <div class="workstation-container">
-            <img src="https://noticiasdemogi.com.br/wp-content/uploads/2020/07/coworking-polo-digital.jpg" alt="escritorio"/>
-            <button><img src="../../assets/trash-solid.svg"></button>
-            <h3>name</h3>
-            <p>description</p>
-        </div>
-    
-       
     </div>
 </div>
 

@@ -9,13 +9,16 @@ form input {
     border-radius: 8px;
     border: none;
 }
+
 form input:first-child {
     margin-right: 3vw;
 }
+
 form input::placeholder {
     text-align: center;
     font-size: 15px;
 }
+
 form button {
     margin-left: 2vw;
     width: 8vw;
@@ -29,6 +32,7 @@ form button {
     min-width: 60px;
     transition: background 0.5s ease;
 }
+
 form button:hover {
     background-color: #8CDA7F;
 }
