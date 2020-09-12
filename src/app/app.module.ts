@@ -8,7 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WorkstationComponent } from './workstation/workstation.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
-import { FormComponent } from './form/form.component';
+
 import {WorkstationsService} from './workstations.service'
 import {FormsModule} from '@angular/forms';
 
@@ -17,7 +17,6 @@ import {FormsModule} from '@angular/forms';
     AppComponent,
     WorkstationComponent,
     PageHeaderComponent,
-    FormComponent
   ],
   imports: [
     BrowserModule,

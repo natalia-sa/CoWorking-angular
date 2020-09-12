@@ -1,7 +1,7 @@
 <app-page-header></app-page-header>
 
-
 <div class="main-container"  >
+    <h2>Crie uma nova workstation</h2>
     <form>
         <input type="text" placeholder="nome" [(ngModel)]="workstation.name" name="name">
         <input type="text" placeholder="descrição" [(ngModel)]="workstation.description" name="description">
@@ -11,10 +11,20 @@
     <div class="grid">
         <div class="workstation-container" *ngFor="let workstation of workstations">
             <img src="https://noticiasdemogi.com.br/wp-content/uploads/2020/07/coworking-polo-digital.jpg" alt="escritorio"/>
-            <button><img src="../../assets/trash-solid.svg"></button>
+            <div class="buttons">
+                <button type="button" (click)="deletar(workstation.id)"><img src="../../assets/trash-solid.svg"></button>
+                <button type="button" (click)="editar(workstation.id)"><img src="../../assets/edit-solid.svg"></button>
+            </div>
             <h3>{{workstation.name}}</h3>
             <p>{{workstation.description}}</p>
+
+            <div class="edition">
+                <!-- <input type="text" placeholder="nome" [(ngModel)]="workstation.name" name="nameEdit" >
+                <input type="text" placeholder="descrição" [(ngModel)]="workstation.description" name="descriptionEdit"> -->
+            </div>
         </div>
+            
+       
     </div>
 </div>
 
