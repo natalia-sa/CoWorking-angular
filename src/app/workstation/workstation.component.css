@@ -70,7 +70,7 @@ form {
 }
 
 form input {
-    
+    padding-left: 20px;
     width: 15vw;
     height: 5vh;
     border-radius: 8px;
